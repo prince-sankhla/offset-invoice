@@ -30,6 +30,7 @@ jobs:
             unzip -t /tmp/offset-invoice-review.zip
             mkdir -p /tmp/offset-source
             unzip -q /tmp/offset-invoice-review.zip -d /tmp/offset-source
+            rm -rf /tmp/offset-source/.github
             cp -a /tmp/offset-source/. .
             rm -rf /tmp/offset-source /tmp/offset-invoice-review.zip .source-payload
             git config user.name "github-actions[bot]"
