@@ -1,0 +1,51 @@
+name: Materialize source and verify
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  materialize-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Expand project source
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -d .source-payload ]; then
+            cat .source-payload/part-*.b64 | base64 --decode > /tmp/offset-invoice-review.zip
+            unzip -t /tmp/offset-invoice-review.zip
+            mkdir -p /tmp/offset-source
+            unzip -q /tmp/offset-invoice-review.zip -d /tmp/offset-source
+            cp -a /tmp/offset-source/. .
+            rm -rf /tmp/offset-source /tmp/offset-invoice-review.zip .source-payload
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add -A
+            if ! git diff --cached --quiet; then
+              git commit -m "feat: add invoice review workspace"
+              git push
+            fi
+          fi
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Test review model
+        run: npm test
+
+      - name: Build production bundle
+        run: npm run build
