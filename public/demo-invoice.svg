@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="900" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Northstar Industrial sample invoice</title>
+  <desc id="desc">A fictional invoice used to demonstrate source-linked review.</desc>
+  <rect width="720" height="900" fill="#f7f8f5"/>
+  <rect x="30" y="24" width="660" height="852" rx="5" fill="#fff" stroke="#e5e8e2"/>
+  <rect x="30" y="24" width="660" height="8" fill="#245747"/>
+  <text x="66" y="61" fill="#245747" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="2.2">NORTHSTAR INDUSTRIAL</text>
+  <text x="66" y="79" fill="#7a847d" font-family="Arial, Helvetica, sans-serif" font-size="10">Industrial equipment &amp; services</text>
+  <text x="654" y="61" text-anchor="end" fill="#7a847d" font-family="Arial, Helvetica, sans-serif" font-size="10">GST INVOICE</text>
+  <line x1="66" y1="114" x2="654" y2="114" stroke="#e8ebe6"/>
+
+  <text x="120" y="54" fill="#828b84" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="1.1">INVOICE NUMBER</text>
+  <text x="120" y="95" fill="#172d27" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">INV-2041</text>
+  <text x="400" y="54" fill="#828b84" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="1.1">INVOICE DATE</text>
+  <text x="400" y="95" fill="#172d27" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">2026-09-14</text>
+
+  <text x="66" y="157" fill="#828b84" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="1.1">BILL TO</text>
+  <text x="66" y="181" fill="#172d27" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">Example Manufacturing Pvt. Ltd.</text>
+  <text x="66" y="199" fill="#69756e" font-family="Arial, Helvetica, sans-serif" font-size="10">Jaipur, Rajasthan, India</text>
+  <text x="654" y="157" text-anchor="end" fill="#828b84" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="1.1">PAYMENT TERMS</text>
+  <text x="654" y="181" text-anchor="end" fill="#172d27" font-family="Arial, Helvetica, sans-serif" font-size="11">Net 30 days</text>
+
+  <rect x="66" y="237" width="588" height="34" rx="3" fill="#f3f5f1"/>
+  <text x="80" y="258" fill="#69756e" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" letter-spacing="1">DESCRIPTION</text>
+  <text x="516" y="258" fill="#69756e" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" letter-spacing="1">QTY</text>
+  <text x="640" y="258" text-anchor="end" fill="#69756e" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" letter-spacing="1">AMOUNT</text>
+
+  <text x="80" y="301" fill="#2b3932" font-family="Arial, Helvetica, sans-serif" font-size="11">Industrial equipment inspection</text>
+  <text x="520" y="301" fill="#2b3932" font-family="Arial, Helvetica, sans-serif" font-size="11">1</text>
+  <text x="640" y="301" text-anchor="end" fill="#2b3932" font-family="Arial, Helvetica, sans-serif" font-size="11">₹32,000.00</text>
+  <line x1="66" y1="321" x2="654" y2="321" stroke="#edf0eb"/>
+  <text x="80" y="350" fill="#2b3932" font-family="Arial, Helvetica, sans-serif" font-size="11">Transport and handling</text>
+  <text x="520" y="350" fill="#2b3932" font-family="Arial, Helvetica, sans-serif" font-size="11">1</text>
+  <text x="640" y="350" text-anchor="end" fill="#2b3932" font-family="Arial, Helvetica, sans-serif" font-size="11">₹8,900.00</text>
+  <line x1="66" y1="370" x2="654" y2="370" stroke="#edf0eb"/>
+  <text x="80" y="399" fill="#2b3932" font-family="Arial, Helvetica, sans-serif" font-size="11">Tax and service charges</text>
+  <text x="520" y="399" fill="#2b3932" font-family="Arial, Helvetica, sans-serif" font-size="11">1</text>
+  <text x="640" y="399" text-anchor="end" fill="#2b3932" font-family="Arial, Helvetica, sans-serif" font-size="11">₹7,350.00</text>
+  <line x1="66" y1="419" x2="654" y2="419" stroke="#edf0eb"/>
+
+  <rect x="66" y="571" width="588" height="1" fill="#e8ebe6"/>
+  <text x="400" y="610" fill="#69756e" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="1">TOTAL DUE</text>
+  <text x="400" y="639" fill="#172d27" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">48,250.00</text>
+  <text x="654" y="610" text-anchor="end" fill="#69756e" font-family="Arial, Helvetica, sans-serif" font-size="10">INR</text>
+
+  <rect x="66" y="711" width="588" height="76" rx="3" fill="#f8f9f6"/>
+  <text x="82" y="735" fill="#69756e" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="700" letter-spacing="1">NOTES</text>
+  <text x="82" y="754" fill="#69756e" font-family="Arial, Helvetica, sans-serif" font-size="10">Please quote the invoice number with your payment.</text>
+  <text x="82" y="771" fill="#69756e" font-family="Arial, Helvetica, sans-serif" font-size="10">This is fictional sample data for the review workflow.</text>
+  <line x1="66" y1="817" x2="654" y2="817" stroke="#e8ebe6"/>
+  <text x="66" y="839" fill="#9aa39d" font-family="Arial, Helvetica, sans-serif" font-size="9">Northstar Industrial · Sample document · Not a real invoice</text>
+</svg>
